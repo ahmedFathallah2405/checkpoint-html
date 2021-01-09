@@ -1,0 +1,60 @@
+h1 {
+    color:red;
+    font-family:roboto;
+    text-align: center;
+}
+p {
+    font-style: italic;
+}
+#Home h2 {
+    color: red;
+  
+}
+div > p{
+font-weight: bold;
+background-color: #333;
+color: #fff;
+padding: .5em;
+}
+#Home{
+ 
+  text-align: center;
+}
+#Home img{
+    border: solid;
+    border-color: red;
+  border-width: 8px;
+ }
+ul li {
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: royalblue;
+    padding: 4px 30px;
+}
+ul {
+    text-align: center;
+}
+#About h2 {
+    color: red;
+    text-align: center;
+}
+#About{
+    margin: 10px auto;
+    text-align: center;
+}
+#About ul{
+    list-style: none;
+}
+#About ul li{
+    display: block;
+    line-height: 2.5;
+}
+#Contact h2 {
+    color: red;
+    text-align: center;
+}
+#Contact {
+    text-align: center;
+}
