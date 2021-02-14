@@ -3,6 +3,9 @@ h1 {
     font-family:roboto;
     text-align: center;
 }
+#Home {
+    background-color: lightgray;
+}
 p {
     font-style: italic;
 }
@@ -16,14 +19,28 @@ background-color: #333;
 color: #fff;
 padding: .5em;
 }
-#Home{
+#Home h2 {
  
   text-align: center;
+  border: 2px solid green;
 }
 #Home img{
-    border: solid;
+    border-style: solid;
     border-color: red;
   border-width: 8px;
+  padding: 50px;
+ }
+ .displayed {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .introduction {
+     color: green;
+     font-family: robto;
+     font-weight: bolder;
+     background-color: red;
+     text-align: justify;
  }
 ul li {
     display: inline-block;
@@ -33,8 +50,8 @@ ul li a{
     color: royalblue;
     padding: 4px 30px;
 }
-ul {
-    text-align: center;
+ul li {
+    text-align: left;
 }
 #About h2 {
     color: red;
